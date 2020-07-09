@@ -1,4 +1,4 @@
-package a.b.c.controller;
+package a.b.c.control;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -12,7 +12,7 @@ import a.b.c.model.MemberDTO;
 import a.b.c.dao.MemberDAO;
 
 @WebServlet("/AlpaHome")
-public class AlpaHome extends HttpServlet {
+public class Servlett extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
